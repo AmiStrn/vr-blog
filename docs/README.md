@@ -1,8 +1,6 @@
 # vr-blog
 
-## Playgroud for fun ideas about how to create VR / XR - personal websites/blogs
-
-
+## Base is forked from Adi Polaks vr-blog
 Check it out [here](https://adi-polak.dev/).
 
 # Licence
