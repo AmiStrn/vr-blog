@@ -1,7 +1,6 @@
 # vr-blog
 
-## Base is forked from Adi Polaks vr-blog
-Check it out [here](https://adi-polak.dev/).
+## Base is forked from [Adi Polak's vr-blog](https://adi-polak.dev/)
 
 # Licence
 
