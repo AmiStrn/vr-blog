@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Amitai's copy of Adi's Page</title>
+    <title>Amitai's VR Page</title>
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
     <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
     <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
@@ -31,7 +31,7 @@
       animation__scale="property: scale; to: 1 1 1; delay: 1500; dur: 200; easing: easeOutCubic"
       animation__position="property: position; to:-1.10068 0.0213 0 ; delay: 1000; dur: 1000; easing: easeOutCubic"> </a-text>
     </a-plane> 
-
+ <!--
     <a-assets>
         <audio id="click-sound" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg" preload="auto"></audio>
         <img id="twitter" src="models/twitter.png" scale="0.02 0.02 0.02"   width="100%" height="100%"
@@ -40,7 +40,7 @@
         <img id="apache_spark" src="models/apache_spark_logo.png" scale="0.02 0.02 0.02"    width="100%" height="100%"
         object-fit="cover">
     </a-assets>
-    
+   
     <a-entity id="links" position="-1.5 1.2 -3" > 
 
         <a-link id="twitter_link" position="0 0 0" scale=".5 .5 .5" href="https://twitter.com/adipolak" 
@@ -58,22 +58,24 @@
         > </a-link>>
     </a-entity>
 
+
     <a-entity id="tree" class="tree" gltf-model="models/BubingaTree.gltf" scale="0.2 0.2 0.2" position="-4.01292 0.421 -3.67596"></a-entity>
 
 
 
     <a-box id="orange-cube"  position="0 2 2" rotation="30 30 0" scale="0.2 0.2 0.2"
     width="2" depth="2" height="2" color="#F16745"></a-box>
-
+-->
 
 
     <a-sky color="#ECECEC"></a-sky>
-    <a-entity environment="preset: forest"></a-entity>
+<!--<a-entity environment="preset: forest"></a-entity>-->
 
   <!-- A generic box/logo made of animated elements -->
-  <a-entity id="logo" position="0.81031 2 -1" scale=".5 .5 .5">
+ <!--  
+<a-entity id="logo" position="0.81031 2 -1" scale=".5 .5 .5">
 
-    <a-entity id="box"
+   <a-entity id="box"
       animation__scale="property: scale; to: 1 1 1; delay: 1000; dur: 1000; easing: easeOutCubic"
       animation__position="property: position; to: 0 0 0; delay: 1000; dur: 1000; easing: easeOutCubic"
       animation__rotation="property: rotation; to: 30 54 36;  dur: 5000; easing: easeOutCubic"
@@ -111,7 +113,7 @@
     </a-entity>
 
 
-  </a-entity>
+  </a-entity>-->
 
   <a-light type="directional" color="#fff" intensity="0.2" position="-1 2 1"></a-light>
   <a-light type="ambient" color="#fff"></a-light>
@@ -120,6 +122,6 @@
    
   </a-scene>
 
-  <script src="blog.js"></script>
+  <!-- <script src="blog.js"></script>-->
 </body>
 </html>
