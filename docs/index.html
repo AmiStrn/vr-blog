@@ -8,11 +8,12 @@
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
     <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
     <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
   </head>
 <body>
     <a-scene id="scene">
 <!-- Camera + cursor. -->
-<a-camera position="0 2 0"look-controls>
+<a-camera position="0 2 0" twoway-motion="speed: 35">
   <a-cursor></a-cursor>
 </a-camera>
 
